@@ -1,0 +1,496 @@
+is AI going to completely replace coding
+the CEO of Nvidia seems to think so I
+want to say something and it's it's
+going to sound completely opposite of
+what people feel over the course of the
+last 10 years 15 years almost everybody
+who sits on a stage like this would tell
+you it is vital that your children learn
+computer science everybody should learn
+how to program and in fact it's almost
+exactly the opposite it is our job to
+create Computing technology such that
+nobody has to program and that the
+programming language is human everybody
+in the world is now a programmer this is
+the miracle of artificial intelligence
+the countries the people that understand
+how to solve a domain problem in digital
+biology or in education of young people
+or in manufacturing or in farming those
+people who understand domain expertise
+now can utilize technology that is
+readily available to you you now have a
+computer that will do what you tell it
+to do it is vital that we upskill
+everyone and the upskilling process I
+believe will be delightful surprising a
+mod M the CEO of stability AI also has
+similar thoughts on this there are no
+programmers in 5 years no programmers in
+5 years so those of you with kids who
+you having you know with python lessons
+and so forth maybe it's instead helping
+them to understand how to ask great
+questions or give great directions or
+prompts I think we always have to look
+at the unchanging versus the inevitable
+so an inevitable is 41% of all code on
+GitHub right now is AI generated chat
+GPT can pass a Glu level three
+programmer exam and it will run pretty
+much on a MacBook
+that's this year this year right now
+yeah and to some degree I personally
+agree with these guys I don't
+necessarily agree with the fact that
+people should stop learning how to
+program I think there is still value
+there is still merit to that and I will
+get to that a little bit later in this
+video but I do believe in the future
+probably even sooner than the 5 years
+that Ahad is talking about here probably
+within the next year or two most code
+will be written with AI and not by a
+human typing it not only do I think that
+humans won't need to write code in the
+the future I also believe that this was
+inevitable and was always the direction
+coding was heading in throughout the
+history of programming languages every
+new language that came along was
+designed to make it easier and easier
+and easier for people to create code if
+you look back in the 1950s we had cobal
+Fortran lisp these were all very very
+complex programming languages that were
+a very very specialized skill in order
+to create code with this in the 1960s
+there was alol 60 and basic which made
+programming a little bit easier now I'm
+not personally a programmer myself I've
+learned a little bit of code the first
+coding language I ever learned to play
+around with was the basic programming
+language and I was actually able to
+figure out little bits of it and code a
+little bit myself with it where I was
+not at all able to code when I messed
+around with Cobalt or Fortran then in
+the 1970s we got SQL we got C we got
+Pascal and we got small talk one that
+I'm not really not familiar with but
+these three right here all made what
+came before it even easier to use and
+you could kind of see the lineage here
+on this graph of how both C and Pascal
+both came from this alal 60 and basic
+eventally led to Pearl and there's sort
+of a a trackable lineage but then in the
+1980s we got Objective C and C++ and
+pearl which simplified these programming
+languages even more making it even
+easier for a larger amount of people to
+get involved in creating code and then
+in the '90s we got an explosion of new
+programming languages as more and more
+people were starting to use the internet
+but these languages were also slightly
+easier to use than the models that came
+before we got JavaScript Java Ruby
+python PHP and these were all so much
+easier to code with than the languages
+before it I've actually taught myself a
+little bit of PHP I know a teeny bit of
+python I know a teeny bit of JavaScript
+and without ever taking any coding class
+is I can do some fairly basic level
+things with these languages and in then
+the 2000s we got Scala C go and then in
+the 2010s Swift typescript Dart and rust
+and again each one of these languages
+were sort of simplified versions of the
+languages that came before it
+programming languages over the years
+have been designed to get easier and
+easier and easier so that more people
+can actually code with them and it takes
+more and more the complexities away
+further democratizing coding so more and
+more people are able to do it here we
+are in the 2020s and now we're getting
+AI code assistance which is essentially
+the next natural progression of all of
+this it's just a simpler way that
+further democratizes coding so that more
+and more people are able to code but
+then we also have the concept of layers
+of abstraction this is what layers of
+abstraction look like in computers
+you've got your Hardware layer and your
+software layer so down here you've got
+your physics devices transistors Gates
+red registers micro architecture
+instruction set architecture this is all
+of the stuff inside of your computer
+this is the hardware in your computer
+that is doing little things making your
+computer Operate Now the software that
+is telling the hardware what to do is
+called machine code or machine language
+this is often binary represented in
+zeros and ones or hexadecimal just
+numbers and letters that if you just try
+to look at it it pretty much makes no
+sense to the human brain but this is
+what is telling the hardware underneath
+what to do we then have a layer on top
+of machine code called Assembly Language
+this is still a very complex language
+but it tells the machine code what to do
+it's another layer of abstraction on top
+then you have the programming language
+these are the things we just got done
+talking about your C++ your JavaScript C
+rust Etc these are all the programming
+languages that sit on top of the
+Assembly Language so when you're writing
+like a C++ code the C++ code is
+basically tell telling the Assembly
+Language what to do the Assembly
+Language is telling the machine code
+what to do the machine code is then
+basically telling the hardware what to
+do and I'm really really oversimplifying
+this but this is layers of abstraction
+every layer that sits on top of the
+previous layer is designed to sort of
+hide and eliminate some of the
+complexities of the layer below it over
+time computers have built up layer after
+layer after layer after layer to make it
+easier for humans to explain what it
+wants theu computer to do so if we're
+looking at this from the angle of layers
+of abstraction an AI coding assistant is
+essentially just the another layer of
+abstraction on top of the programming
+language in the future I don't even
+think we're going to be using AI code
+assistants I think we're basically going
+to be telling the computer with voice or
+a simple prompt what we actually want a
+piece of software to do and then the AI
+is going to ask questions about the
+software to make sure it understands and
+then just go and write the code so it is
+just another layer of abstraction on top
+of what we've already got hence why I
+believe this is where it was always
+headed throughout history we've always
+added new layers of abstraction on top
+of the sort of more complicated thing
+below it to make it easier and easier
+for users to actually work with in fact
+here's a quick clip from McKay Wrigley
+who basically built a bot where he can
+explain in words what he wants and then
+the AI underneath goes and just does it
+run Jarvis yes I need another next St
+with Tailwind you want me to create a
+new nextjs app with tailin CSS yes one
+moment what would you like the app to do
+this time I want a basic social
+networking app and it needs to have
+three things it needs to have a profile
+creation form it needs to have a profile
+viewer and I also want a way to see all
+the users on the network you want a
+basic social networking app that
+includes a profile creation page a
+profile viewer and a list of all the
+users What would would you like the
+profiles to have let's keep it kind of
+simple let's just do a name an email and
+a username I'll add those fields to the
+profile schema what else can I do I want
+you to optimize the site so that it
+works with mobile and desktop devices
+and I also want you to style it in like
+a dark mode okay I'll optimize it for
+both mobile and desktop and style it in
+dark mode anything else start building
+okay I'll start working I created a new
+repo called basic social network
+continuing I initialize the app
+continuing I also optimize some speed
+things I'm creating a profiles table in
+your database continuing the app is
+building correctly would you like me to
+deploy it oh yeah okay deploying to
+veral continuing I deployed your project
+to veral on M personal continuing I'm
+all done wasn't that fast you should
+give me a
+raise boom dark mode Let's let's see if
+it's responsive okay that looks fine it
+shows the profile you see we have an all
+profiles list let's click that this is
+showing us the profiles now let's go
+let's make sure this is responsive it is
+it is and if we go to our database it is
+in our DV the game has changed everyone
+now I did speed that up a little bit I
+cut out some of the gaps it did take a
+little bit of time from the time he gave
+it a prompt to the time it responded so
+just to keep the video flowing I cut
+some of that out but he was able to use
+a Voice Assistant that he created to
+create code without ever actually typing
+a line of code the same person McKay
+Wrigley shared this video over on X is
+pretty crazy he actually got Gemini to
+debug his code by recording videos of
+bugs so he would use a tool screen
+capture his computer of the bugs that
+were popping up while he was using the
+tool feed the video into Gemini and then
+Gemini would fix the bugs for him now
+I'm not going to play this whole video
+it's another 3 minute video but I will
+link it up in the description if you
+want to see him go through this process
+there are also more and more AI coding
+assistants popping up every day and it
+seems like with almost every single new
+AI coding assistant is getting better
+and better at creating and debugging
+code for people we've got tools like
+GitHub co-pilot which was the original
+AI code assistant and to this day
+probably still the best AI code
+assistant Amazon enter the game with
+their Amazon code Whisperer you've got
+tab9 you've got Cody from Source graph
+you've got codium of course you've got a
+Gemini you've got chat GPT and all of
+these are really really good at coding
+and there's more popping up constantly
+and if you check out futur tools. and
+select the generative code tab there are
+a hundred different tools to help you in
+your coding and more being added all of
+the time I actually came across this
+video here from Connor ardman I'll link
+it up in the description if you want to
+watch the whole thing but he did a
+breakdown comparison of a handful of the
+tools put GitHub co-pilot as the
+essentially s tier in the chart here
+chat GPT and Gemini would be I guess a
+tier or actually useful as he calls it
+he put tab9 in decent Amazon code
+whisper in acceptable and Cody in
+acceptable now don't get me wrong there
+are still a lot of issues with AI coding
+I still obviously think that coders are
+necessary right now I actually still
+think coders will be necessary in the
+future as well we do run into a lot of
+issues when it comes to writing code
+with AI being somebody who is not a very
+proficient or very good coder myself I
+run into a lot of issues trying to
+generate code using AI for instance when
+I try to have something like chat GPT
+write code for me it's usually pretty
+buggy on the first try I will tell chat
+GPT what the bug is chat GPT will try to
+fix that bug and often times breaks
+something else in the process and if you
+continue to code more and more and more
+a lot of these tools sort of lose the
+memory of the things that you talked
+about earlier on in your chat so if
+you're going back and forth trying to
+code something up some of that early
+conversation of what you wanted the code
+to do might actually get lost and chat
+GPT or whatever code assistant you're
+using will start to kind of accidentally
+remove features that it originally put
+in as of right now it's still not great
+you also have the issue of context
+Windows most of these chatbots have
+context windows that aren't suitable for
+very very large chunks of code you can
+upload a large document with code in it
+and if it's beyond the context window of
+the chatbot it's not going to be able to
+read a large chunk of that code you also
+have the issues of stuff getting lost in
+the middle of the code a lot of times
+these chat Bots when you feed them long
+documents they're really good at reading
+what's in the beginning of the document
+and the end of the document but stuff in
+the middle tends to get lost for some
+reason which isn't great for code cuz
+you need it to use all of that code for
+context however things like that are
+getting even better with things like
+Gemini 1.5 coming out which is capable
+of working with 1 million tokens or
+750,000 words making it more and more
+likely that you're going to be able to
+plug in huge chunks of code and have it
+read it all they also did what's called
+a needle and a Hy stack test inside of
+Gemini where they gave it a huge amount
+of text and then somewhere in the middle
+gave it like a little sentence and then
+asked it a question about that sentence
+to see if it would find that sentence
+located in this huge massive amount of
+text and it performed at 99% it was able
+to find the embedded text 99% of the
+time which means that issue of things
+getting lost in the middle is going to
+be a thing of the past pretty soon where
+we stand today AI is a great coding
+assistant it's going to help you write a
+lot better code it's going to help you
+debug your code it's going to help write
+a lot of the monotonous code that's been
+written over and over and over again
+that can be found on places like GitHub
+and stack Overflow but it's not really
+great at creating a huge piece of
+software from scratch for you yet but I
+do think it's going to get there and I
+think it's going to get there a lot
+sooner than most people realize now does
+that mean I think nobody should learn
+coding ever absolutely not I have a
+9-year-old son he actually is in coding
+classes right now and I've been pushing
+him to continue to learn code and he
+really loves it in a similar way that if
+you love art and you love painting or
+drawing you shouldn't give up painting
+or drawing because AI art can do it as
+well I think a lot of people learn to
+code because it is enjoyable to
+understand what is going on underneath
+and to feel like they built something
+using their own brains as opposed to an
+ai's brain I think we're going to get to
+a point where AI is really dang good at
+coding and it's going to be able to code
+the majority of a piece of software for
+you but I still think there's probably
+going to need to be humans in the loop
+to help debug code you know if you're a
+game developer you still need humans to
+create a fun game Loop if you if you
+want a good user interface and user
+experience I still think humans are
+going to be the best at determining what
+a good user interface and a good user
+experience is my view of the future of
+coding is yes I do believe AI is going
+to do the majority of the coding work
+but I think humans still need to have
+the ideas for what to code I think
+humans are still going to need to help
+problem solve and help guide the AI to
+fix issues with the code I think humans
+are still going to steer the UI the user
+experience of the code and I think
+there's going to be almost like a craft
+element to it as well I think people are
+going to Value things that humans coded
+vers an AI coded in the same way that
+that seems to be playing out in AI art
+people are more impressed by an amazing
+piece of artwork that was created by a
+human than they are an amazing piece of
+art that was created by AI I think
+coding will be the same when Jensen hang
+made his quote about how he thinks
+people should stop learning coding John
+carac the creator of ID software a
+programmer himself and one of the
+creators of oculus had this to say about
+it and I think he Nails it I think this
+is a spoton representation of where I
+think coding is heading he says coding
+was never the source of value and people
+shouldn't get overly attached to it
+problem solving is the core skill the
+discipline and precision demanded by
+traditional programming will remain
+valuable transferable attributes but
+they won't be a barrier to entry anymore
+many times over the years I have thought
+about a great programmer I knew that
+loved Assembly Language to the point of
+not wanting to move to C I have to fight
+some similar feelings of my own around
+using existing massive code bases and
+inefficient languages but I pushed
+through I had somewhat resigned myself
+to the fact that I might be missing out
+on the final abstraction where you
+realize that managing people is more
+powerful than any personal tool I just
+don't like it and I can live with the
+limitations that puts on me I suspect
+that I will enjoy managing AIS more even
+if they wind up being better programmers
+than I am so when he's referring to that
+final abstraction he's talking about
+what's that next layer on top of code
+cuz over history we've always added new
+layers to make things easier and easier
+and easier and all the people that are
+super resistant to letting AI help them
+with code or letting AI write the code
+for them are essentially saying that yes
+there's a new layer of abstraction that
+makes it easier but I'm going to ignore
+that and stay at the layer before it and
+that's my thoughts on AI coding that's
+where I think coding is going I think
+it's the next layer of abstraction for
+coding and I think it's always kind of
+been headed in that direction it wasn't
+AI that added that next layer of
+abstraction to make it easier for humans
+to write code something else would have
+been that next layer of abstraction and
+people would have been just as
+frustrated and upset and resistant to
+whatever that was as well but again not
+a coder myself this is just the
+perspective of somebody who pays very
+close attention to Ai and has some of
+that foundational knowledge of how
+computers and operating systems and
+software work I just feel like this was
+always the direction things were headed
+what do you think let me know in the
+comments I know this is a very hotly
+deated topic there's a lot of negativity
+there's a lot of fear but I do want to
+know your opinion where do you think
+coding is heading and what is the
+timeline you think I actually believe
+we're going to get to the point where AI
+is really proficient at writing good
+code within the next 18 months possibly
+even sooner that's where I stand what
+are your thoughts thanks for tuning in
+I'll see you in the next video bye-bye

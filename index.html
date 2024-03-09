@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Editx</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $.get('index2.html', function(data) {
+        $('#content').html(data);
+      });
+    });
+  </script>
+</head>
+<body>
+  <div id="content"></div>
+</body>
+</html>

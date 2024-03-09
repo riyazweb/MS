@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Website</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif; /* Replace 'Roboto' with your chosen font */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f0f0f0; /* Change the background color as needed */
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 24px; /* Adjust the font size as needed */
+        }
+        a {
+            text-decoration: none;
+            color: black; /* Set the color to black */
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start; /* Align posts to the left */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .post {
+            margin: 10px; /* Adjust the margin as needed */
+            text-align: center;
+            flex-basis: calc(33.33% - 20px); /* Set the width of each post to one-third minus the margin */
+            box-sizing: border-box;
+        }
+        .thumbnail {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .title {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>MAN FROM SPACE</h1>
+</header>
+  
+<div class="container">
+    <div class="post">
+        <a href="post1.html">
+            <img class="thumbnail" src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-1773631,resizemode-75,msid-108213950/tech/technology/ettech-explainer-elon-musk-vs-openai-and-the-curious-case-of-sour-grapes.jpg" alt="hey">
+            <h2 class="title">elon kills open ai</h2>
+        </a>
+    </div>
+    
+
+
+<div class="post">
+    <a href="post2.html">
+        <img class="thumbnail" src="https://cdn.zeebiz.com/sites/default/files/2024/03/05/283112-nothing-phone-2a.jpg" alt="">
+        <h2 class="title">Unboxing the Nothing Phone 2A</h2>
+    </a>
+</div>
+
+<div class="post">
+    <a href="post3.html">
+        <img class="thumbnail" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Why-get-certified-in-Artificial-Intelligence.jpg" alt="">
+        <h2 class="title">Unbelievable AI-Generated Video Technology</h2>
+    </a>
+</div>
+
+<div class="post">
+    <a href="post4.html">
+        <img class="thumbnail" src="https://gagadget.com/media/post_big/642ee839c5648.jpg" alt="">
+        <h2 class="title">The Power of Spinning Black Holes</h2>
+    </a>
+</div>
+
+<div class="post">
+    <a href="post5.html">
+        <img class="thumbnail" src="https://www.zdnet.com/a/img/resize/cb11227de0275b92a5af1d1831ee5526deb51654/2020/04/28/3b0d5ffd-d830-4563-9980-9671951953f4/jensen-huang-nvidia-ceo.jpg?auto=webp&fit=crop&height=1200&width=1200" alt="">
+        <h2 class="title">Is AI Replacing Coding Completely?</h2>
+    </a>
+</div>
+<!-- Add more posts as needed -->
+    </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const thumbnails = document.querySelectorAll(".thumbnail");
+
+        thumbnails.forEach((thumbnail, index) => {
+            thumbnail.addEventListener("click", function () {
+                const postTitle = thumbnail.nextElementSibling.innerText;
+                console.log(`Clicked on Post ${index + 1}: ${postTitle}`);
+            });
+        });
+    });
+</script>
+</body>
+</html>
